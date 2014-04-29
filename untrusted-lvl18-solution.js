@@ -59,7 +59,8 @@ function startLevel(map) {
     		x = x + 1;
         	map.placeObject(x, 12, 'item');
         }
-
+    }
+    function gravity(){
 
     }
 
