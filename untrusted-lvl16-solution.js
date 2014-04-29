@@ -58,11 +58,12 @@ function startLevel(map) {
     	if(player.getColor() == 'red') player.setColor('yellow');
         else if(player.getColor() == 'yellow') player.setColor('teal');
         else player.setColor('red');
-        
-    };
+    	};
+    	
 	player.setPhoneCallback(callback);
     
-
+    	// avoiding colision
+	map.testLineCollisions = function(player){};
 
 
 
